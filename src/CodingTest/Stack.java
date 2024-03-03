@@ -1,11 +1,8 @@
-//백준 10828번
-
-
 package CodingTest;
 
 import java.util.Scanner;
-public class Stack {
 
+public class Stack {
     public static int[] stack;
     public static int size = 0;
 
@@ -88,6 +85,4 @@ public class Stack {
             return stack[size - 1];
         }
     }
-
 }
-
